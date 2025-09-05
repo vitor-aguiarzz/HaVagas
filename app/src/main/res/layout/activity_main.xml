@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="24dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -129,9 +129,9 @@
             <Spinner
                 android:id="@+id/spinnerFormacao"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"/>
 
-            <!-- Campos adicionais para formação (deve ser dinâmico no código) -->
             <LinearLayout
                 android:id="@+id/layoutCamposFormacao"
                 android:layout_width="match_parent"
